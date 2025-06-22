@@ -10,7 +10,7 @@ public class Application {
         String[] separateWords = StringUtils.split(words, ' ');
         return (separateWords == null) ? 0 : separateWords.length;
     }
-    
+
 
     public void greet(){
         List<String> greetings = new ArrayList<>();

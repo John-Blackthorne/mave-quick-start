@@ -3,8 +3,12 @@ package clinic.programming.training;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Application {
 
+public int countWords(String words){
+    return 1;
+}
 
     public void greet(){
         List<String> greetings = new ArrayList<>();
